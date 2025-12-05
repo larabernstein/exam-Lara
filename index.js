@@ -1,1 +1,3 @@
-const form = document.getElementById("Nom")
+document.getElementById("btn").addEventListener("click",() => {
+    document.getElementById("txt").style.display="block";
+})
