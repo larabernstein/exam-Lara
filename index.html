@@ -9,18 +9,45 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <header>
-
-    </header>
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Contactez-moi</a></li>
+        </ul>
+    </nav>
 
 <main>
+    <section class="bloc">
+        <img src="assets/img_random.jpg" alt="image section">
+        <p1>Cute dogs</p1>
+        <p2>Adoptez les</p2>
+    </section>
+
+    <section class="bloc formulaire">
+        <img src="assets/logo_img.jpg" alt="image section 2">
+
+        <form action="traitement_inscription.php." method="POST">
+            <label>Nom:</label>
+            <input type="text" name="Nom" required>
+
+            <label>Prénom:</label>
+            <input type="text" name="Prénom" required>
+
+            <label>Email:</label>
+            <input type="Email" name="Email" required>
+
+            <button type="submit">Validez</button>
+        </form>
+    </section>
+    </section>
 
 </main>
 
 <footer>
+    <p>Page web faite par Lara Bernstein venant de la base de données Php</p>
 
 </footer>
 
+<script src="index.js"></script>
 </body>
 </html>
